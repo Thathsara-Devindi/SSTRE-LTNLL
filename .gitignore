@@ -1,0 +1,29 @@
+# Datasets
+data/
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Generated experiment outputs
+outputs/
+artifacts/
+
+# NumPy / large experiment arrays
+*.npy
+*.npz
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
