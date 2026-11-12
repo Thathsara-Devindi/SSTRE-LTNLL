@@ -1,0 +1,23 @@
+{
+  "run_key": "cifar100n_adaptive_seed42",
+  "execution_order": 6,
+  "dataset": "cifar100n",
+  "method": "adaptive",
+  "seed": 42,
+  "epochs": 100,
+  "protocol_sha256": "bba21919c41d1927b8edf749df5eed34908fbd10038a6ca8e17642cb38b34f2f",
+  "dataset_contract_sha256": "49cc0073804958f9f60c0551c843ae327a1bdce1dcd18c77d7c49b2a7a468264",
+  "scientific_overrides": {},
+  "output_volume": "configured via SSTRE_OUTPUT_VOLUME",
+  "output_prefix": "/Phase6_Main100_V2/cifar100n",
+  "estimated_minutes": [
+    70,
+    115
+  ],
+  "estimated_compute_usd": [
+    1.2,
+    2
+  ],
+  "approval_required": true,
+  "cloud_training_ready": false
+}

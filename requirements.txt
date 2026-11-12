@@ -1,0 +1,10 @@
+# Recorded research runtime plus installed Modal client version.
+# See docs/REPRODUCTION.md for Python version and wheel selection.
+numpy==1.26.4
+Pillow==11.0.0
+scipy==1.14.1
+scikit-learn==1.5.2
+matplotlib==3.9.2
+torch==2.9.1
+torchvision==0.24.1
+modal==1.6.2

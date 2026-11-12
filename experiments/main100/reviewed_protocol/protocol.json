@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "protocol_id": "phase6_main100_v2_20261026_01",
+  "date": "2026-10-26",
+  "status": "LOCKED_FOR_REVIEW_NOT_EXECUTION",
+  "training_implementation": "NOT_IMPLEMENTED_IN_THIS_PREPARATION",
+  "supersedes_proposal_only": "handoff section17 long60 proposal; all pilot artifacts remain immutable",
+  "epochs": 100,
+  "warmup_epochs": 30,
+  "seed": 42,
+  "optional_future_paired_seeds": [
+    43,
+    44
+  ],
+  "fresh_initialization": true,
+  "resume_from_pilot": false,
+  "model": {
+    "family": "torchvision_resnet18",
+    "pretrained": false,
+    "stem": {
+      "kernel_size": 3,
+      "stride": 1,
+      "padding": 1,
+      "bias": false
+    },
+    "maxpool": "Identity",
+    "feature_dim": 512,
+    "classifier": "dataset_num_classes"
+  },
+  "optimizer": {
+    "name": "SGD",
+    "lr": 0.1,
+    "momentum": 0.9,
+    "weight_decay": 0.0005
+  },
+  "scheduler": {
+    "name": "MultiStepLR",
+    "milestones": [
+      60,
+      85
+    ],
+    "gamma": 0.1,
+    "step_timing": "after_epoch"
+  },
+  "loader": {
+    "batch_size": 128,
+    "analysis_batch_size": 256,
+    "num_workers": 2,
+    "drop_last": false,
+    "persistent_workers": false,
+    "train_shuffle": true
+  },
+  "preprocessing": {
+    "training": [
+      "RandomCrop(32,padding=4)",
+      "RandomHorizontalFlip(p=0.5)",
+      "ToTensor",
+      "Normalize"
+    ],
+    "evaluation": [
+      "ToTensor",
+      "Normalize"
+    ],
+    "mean": [
+      0.4914,
+      0.4822,
+      0.4465
+    ],
+    "std": [
+      0.247,
+      0.2435,
+      0.2616
+    ],
+    "cifar100_decision": "Deliberately reuse pilot CIFAR10 fixed affine normalization; these are NOT claimed CIFAR100 empirical moments. No statistics fitted to validation/test."
+  },
+  "seed_rules": {
+    "initialization": "seed",
+    "epoch_reseed": "seed+1009*epoch",
+    "training_loader": "seed+101*epoch",
+    "analysis_loader": "seed+103*epoch",
+    "validation_loader": "seed+107*epoch",
+    "worker": "torch.initial_seed()%2**32 to Python/NumPy"
+  },
+  "precision": {
+    "dtype": "float32",
+    "amp": false,
+    "tf32": false,
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": true,
+    "cublas_workspace": ":4096:8"
+  },
+  "signals": {
+    "C": "p_completed_epoch_e_minus_1(observed_noisy_label)",
+    "T": "mean_argmax_equals_observed_label_completed_epochs_e_minus_6_through_e_minus_2",
+    "temporal_window": 5,
+    "confidence_anchor_excluded_from_T": true,
+    "history_collection_start_epoch": 1,
+    "N": "mean_neighbor_MODEL_probability_for_QUERY_observed_noisy_label",
+    "neighbor_k": 10,
+    "metric": "cosine_L2_normalized_penultimate_features",
+    "query_batch_size": 128,
+    "exclude_self": true,
+    "distinct_neighbors": true,
+    "tie_break": "ascending_frozen_local_id",
+    "neighborhood_refresh_completed_epochs": [
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95
+    ],
+    "N_vote": "diagnostic_only",
+    "normalization": "identity_unit_interval",
+    "no_replay_history": true,
+    "no_clean_audit_labels": true
+  },
+  "fusion": {
+    "fixed_fractions": [
+      [
+        23,
+        70
+      ],
+      [
+        24,
+        70
+      ],
+      [
+        23,
+        70
+      ]
+    ],
+    "c_only_fractions": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "stages": [
+      {
+        "first_epoch": 31,
+        "last_epoch": 50,
+        "fractions": [
+          [
+            2,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      {
+        "first_epoch": 51,
+        "last_epoch": 75,
+        "fractions": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "first_epoch": 76,
+        "last_epoch": 100,
+        "fractions": [
+          [
+            4,
+            15
+          ],
+          [
+            7,
+            15
+          ],
+          [
+            4,
+            15
+          ]
+        ]
+      }
+    ],
+    "weight_floor": 0.25,
+    "reliability_clip": [
+      0,
+      1
+    ],
+    "mapping": "q=0.25+0.75*R; w=q/mean_over_entire_frozen_train_set(q)",
+    "loss": "mean(detached_w * CE(logits, observed_noisy_labels))",
+    "warmup": "unit_CE_all_methods",
+    "CE": "unit_CE_all_100_epochs",
+    "sample_rejection": false
+  },
+  "evaluation": {
+    "frequency_epochs": 1,
+    "selection": "validation_macro_f1",
+    "tie_rule": "strict_improvement_first_tie",
+    "evaluate_official_test": false,
+    "build_test_loader": false,
+    "final_model_selection_locked": false,
+    "report_selected_and_final": true,
+    "classification_metrics": [
+      "accuracy",
+      "balanced_accuracy",
+      "macro_precision",
+      "macro_recall",
+      "macro_f1",
+      "head_accuracy",
+      "mid_accuracy",
+      "tail_accuracy",
+      "per_class_recall",
+      "confusion_matrix"
+    ],
+    "group_membership_evaluation_only": true,
+    "report_late_window": [
+      86,
+      100
+    ],
+    "early_stop_for_performance": false
+  },
+  "monitoring": {
+    "save_validation_predictions_and_probabilities_each_epoch": true,
+    "save_validation_CE_each_epoch": true,
+    "save_deterministic_observed_label_train_CE_each_epoch": true,
+    "finite_loss_and_gradient_checks": true,
+    "record_sample_order_and_augmentation_hashes": true,
+    "record_observed_label_batch_and_epoch_counts": true,
+    "record_BN_state_before_after_analysis": true,
+    "record_analysis_parameter_and_buffer_hash_invariance": true,
+    "epoch10_focus_epochs": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "drop_flag_accuracy_pp": 5,
+    "drop_flag_action": "log_only_never_change_LR_schedule_or_stop_for_accuracy",
+    "convergence": "report loss/validation trends; no automatic epoch extension or convergence claim",
+    "audit_labels_in_online_monitoring": false
+  },
+  "reliability_evaluation": {
+    "offline_only": true,
+    "metrics": [
+      "clean_positive_AUROC",
+      "clean_positive_AP_and_prevalence",
+      "selection_precision_recall",
+      "clean_tail_false_rejection_at_fixed_coverage",
+      "hard_clean_tail_false_rejection_at_fixed_coverage",
+      "positive_weight_exposure"
+    ],
+    "coverage": 0.7,
+    "coverage_count": "floor(0.70*N)",
+    "tie_break": "ascending_frozen_local_id",
+    "CIFAR10_hard_proxy": "reuse existing frozen392sample Phase6 shared epoch5 mask; no refitting",
+    "CIFAR100_hard_proxy": "offline after scoring: bottom ceil25percent among audit-clean tail by shared CE-seed42 epoch5 C; stable localID ties; never used in training/tuning",
+    "actual_training_rejection": 0
+  },
+  "persistence": {
+    "input_mount_read_only": true,
+    "create_output_volume_if_missing": false,
+    "new_output_prefix": "/Phase6_Main100_V2",
+    "unique_run_token": "YYYYMMDDTHHMMSSZ_8hexnonce",
+    "exclusive_directories_and_files": true,
+    "overwrite": false,
+    "retries": 0,
+    "publication": "reuse isolated copy of ablation_store exclusive commit/SHA256-byte-readback/verified markers; no batch republication",
+    "full_state_checkpoint_every_epoch": true,
+    "initial_checkpoint": true,
+    "checkpoint_load_weights_only": true,
+    "checkpoint_load_strict": true,
+    "automatic_recovery": false,
+    "checkpoint_state_format": "main100_v2_rolling6_REQUIRED_NOT_IMPLEMENTED",
+    "rolling_prediction_argmax_epochs": 6,
+    "save_full_probability_history_in_each_checkpoint": false,
+    "latest_probability_matrix_float32": true,
+    "cached_N_soft_N_vote_and_bank_epoch": true,
+    "save_neighbors_at_refresh_for_offline_audit": true,
+    "required_restoration_fields": [
+      "model",
+      "optimizer_momentum",
+      "scheduler",
+      "epoch_optimizer_steps",
+      "prior_validation_best",
+      "Python_NumPy_Torch_CPU_CUDA_RNG",
+      "sampler_generator_epoch_seed_policy",
+      "frozen_ID_noisy_label_fingerprint",
+      "last6_epoch_argmax_history",
+      "latest_probability_matrix",
+      "cached_N_scores_bank_epoch_and_provenance"
+    ],
+    "estimated_full_checkpoint_storage_gb_per_run": [
+      10,
+      14
+    ]
+  },
+  "resources_proposed": {
+    "gpu": "T4",
+    "gpu_count": 1,
+    "cpu": 2,
+    "memory_mib": 8192,
+    "function_timeout_seconds": 10800,
+    "startup_timeout_seconds": 180,
+    "retries": 0,
+    "max_containers": 1,
+    "detached": true,
+    "automatic_next_method": false,
+    "cloud_approval_granted": false
+  },
+  "image": {
+    "python": "3.11",
+    "torch": "2.9.1",
+    "torchvision": "0.24.1",
+    "torch_index_url": "https://download.pytorch.org/whl/cu126",
+    "packages": [
+      "numpy==1.26.4",
+      "Pillow==11.0.0",
+      "scipy==1.14.1",
+      "scikit-learn==1.5.2",
+      "matplotlib==3.9.2"
+    ]
+  },
+  "remaining_requirements": [
+    "both_datasets_main_panel",
+    "hard_clean_tail_and_reliability_audit",
+    "selected_published_baseline_fair_comparison",
+    "additional_paired_seeds_if_feasible",
+    "locked_approved_final_test_evaluation",
+    "thesis_paper_and_viva_with_Nov3_6_protected"
+  ]
+}

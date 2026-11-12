@@ -1,0 +1,23 @@
+{
+  "run_key": "cifar10n_ce_seed42",
+  "execution_order": 1,
+  "dataset": "cifar10n",
+  "method": "ce",
+  "seed": 42,
+  "epochs": 100,
+  "protocol_sha256": "bba21919c41d1927b8edf749df5eed34908fbd10038a6ca8e17642cb38b34f2f",
+  "dataset_contract_sha256": "1b52619e5ab76a290cdb8da8ded0a562075a9c09af8b170d5ed7e98819a8ef48",
+  "scientific_overrides": {},
+  "output_volume": "configured via SSTRE_OUTPUT_VOLUME",
+  "output_prefix": "/Phase6_Main100_V2/cifar10n",
+  "estimated_minutes": [
+    100,
+    130
+  ],
+  "estimated_compute_usd": [
+    1.5,
+    2.3
+  ],
+  "approval_required": true,
+  "cloud_training_ready": false
+}

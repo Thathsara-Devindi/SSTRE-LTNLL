@@ -1,0 +1,12 @@
+# Preserve exact bytes of the hash-verified release files on checkout.
+/experiments/** -text
+/dataset_preparation/** -text
+/evaluation/** -text
+/results/** -text
+/provenance/** -text
+/docs/** -text
+/tools/** -text
+/.gitattributes -text
+/.gitignore -text
+/README.md -text
+/requirements.txt -text

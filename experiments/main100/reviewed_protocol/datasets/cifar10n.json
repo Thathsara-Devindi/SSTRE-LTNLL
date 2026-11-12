@@ -1,0 +1,66 @@
+{
+  "dataset": "cifar10n",
+  "num_classes": 10,
+  "noise_variant": "random_label1",
+  "status": "EXISTING_FROZEN_INPUTS_LOCALLY_VERIFIABLE_REMOTE_NOT_REQUERIED",
+  "split_seed": 42,
+  "train_samples": 18388,
+  "validation_samples": 5000,
+  "validation_per_class": 500,
+  "source_train_samples": 50000,
+  "imbalance_factor_max_over_min": 10,
+  "split_fingerprint": "9a8f859c871027638440913cdf4678e3febc924951c2ee0b3c01a5a61dc17839",
+  "local_split_sha256": "2cef9dc2d707c029a70276fcc6736401a282f9755abc4cb8ed00f581269f33f4",
+  "local_phase2_config_sha256": "9fece00c737d9c9e32998c180d84e8b6d06914a6cfd053a3ba8bfa1ec258e6fc",
+  "training_id_key": "lt_indices",
+  "training_label_key": "observed_labels",
+  "validation_id_key": "val_indices",
+  "regenerate_split": false,
+  "class_rank_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "expected_source_class_counts": [
+    4500,
+    3484,
+    2697,
+    2088,
+    1617,
+    1252,
+    969,
+    750,
+    581,
+    450
+  ],
+  "evaluation_groups": {
+    "head": [
+      0,
+      1,
+      2
+    ],
+    "mid": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "tail": [
+      7,
+      8,
+      9
+    ]
+  },
+  "image_archive": {
+    "sha256": "6d958be074577803d12ecdefd02955f39262c83c16fe9348329d7fe0b5c001ce",
+    "download": false
+  },
+  "expected_classifier_parameters": 11173962
+}

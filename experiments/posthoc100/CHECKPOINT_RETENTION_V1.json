@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "main100_retention_v1_20261026",
+  "date": "2026-10-26",
+  "base_protocol_sha256": "d633950e29d9a517e3e95583e7bc72b82bbaf7d84a60d29428b44f0252d3746b",
+  "authorized_scope": "User-approved checkpoint-retention-only amendment; scientific protocol unchanged",
+  "overrides": {
+    "full_state_checkpoint_every_epoch": false,
+    "initial_checkpoint": true,
+    "full_recovery_epochs": [
+      9,
+      10,
+      11,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "best_validation": "strict_macro_f1_improvement: reuse full recovery checkpoint or save immutable model-only snapshot",
+    "final_checkpoint": "full recovery epoch100",
+    "per_epoch_metrics_predictions_curves_diagnostics": "unchanged"
+  },
+  "overwrite": false,
+  "automatic_recovery": false,
+  "atomic_save": "fsynced sibling temporary file, no-replace rename; commit plus independent SHA256/byte readback required for validity"
+}
