@@ -1,0 +1,13 @@
+{
+  "datasets/cifar100n.json": "49cc0073804958f9f60c0551c843ae327a1bdce1dcd18c77d7c49b2a7a468264",
+  "protocol_tools.py": "4259661449fe9ba40ea0e7b88fdc544107ffb9a57362ee34817849ad08b24df7",
+  "protocol.json": "bba21919c41d1927b8edf749df5eed34908fbd10038a6ca8e17642cb38b34f2f",
+  "datasets/cifar10n.json": "1b52619e5ab76a290cdb8da8ded0a562075a9c09af8b170d5ed7e98819a8ef48",
+  "runs/cifar100n_adaptive_seed42.json": "5521e9d3743dc73c170520b28bbdde3b8a86104265b2b9788d14bb5e229accf1",
+  "runs/cifar100n_ce_seed42.json": "bf6da0ff59c0aa61f48763ea72179884befd068244e2289f6e0f136567b850d7",
+  "runs/cifar100n_fixed_seed42.json": "1f8e6baece750550e41ac79b987683e6fced74073224fb919c1c51d9f004119e",
+  "runs/cifar10n_adaptive_seed42.json": "36b4d7dbf391d85fc1310709f9f6c58628140dc953611f4a77f1caccdecc1914",
+  "runs/cifar10n_c_only_seed42.json": "ed8d78ba70ede74cc1e3204f982ea4b309516d4333798898e063a8de4368b44f",
+  "runs/cifar10n_ce_seed42.json": "1580e041e32a2e2ec93b47ded334d408201c936baf30705fde27228b2ca26b97",
+  "runs/cifar10n_fixed_seed42.json": "248dfb59a4a14844ac88f1672e88b3d6843057ae5ab40a42b3564db1b2fed654"
+}

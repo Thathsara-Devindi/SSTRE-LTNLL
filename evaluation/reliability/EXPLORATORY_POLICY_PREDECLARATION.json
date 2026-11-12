@@ -1,0 +1,15 @@
+{
+  "status": "POLICY_FIXED_BEFORE_NEW_COUNTERFACTUAL_OUTCOMES",
+  "scope": "Local post-hoc measurement counterfactual only; no training, schedule selection or replacement of frozen primary audit",
+  "coverage": 0.7,
+  "total_selected": "K=floor(7*N/10), identical to frozen global selection",
+  "quota_rule": "For observed class c with n_c samples, allocate floor(K*n_c/N); give remaining seats to descending integer remainder (K*n_c) mod N, breaking ties by ascending observed class ID. Empty observed classes receive zero.",
+  "within_class_order": "Descending unchanged saved float32 reliability; ascending frozen local sample ID for equal scores",
+  "global_order": "Descending unchanged saved float32 reliability; ascending frozen local sample ID for equal scores",
+  "policy_inputs": ["saved reliability", "observed training label", "frozen local sample ID"],
+  "forbidden_policy_inputs": ["clean reference labels", "hard-clean-tail membership", "true tail classes", "validation or official-test outcomes"],
+  "no_search": "One proportional-coverage policy only. No coverage sweep, quota tuning, label-purity optimization or schedule change.",
+  "outcome_reporting": ["hard-clean-tail rejected count", "noisy selected count and noisy retention rate", "clean precision and recall", "clean head/mid/tail rejection", "swapped sample counts"],
+  "new_checks": ["six endpoint reconstructions against accepted counts", "sample rank and cutoff margins", "Fixed/Stage rejection overlaps", "proportional observed-class counterfactual"],
+  "reuse_without_reanalysis": ["seed42 stage-wise discrimination", "temporal saturation", "same-evidence coefficient swaps", "signal correlations", "100-epoch cumulative multiplier exposure"]
+}

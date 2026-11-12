@@ -1,0 +1,476 @@
+{
+  "provenance/original_main100_source_manifest.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/SOURCE_MANIFEST.json",
+    "original_sha256": "e5473091d5b8750099e21eb6bec0d7fadfddb7a2bdc418e8a01bf7bf9f1b74d5",
+    "release_sha256": "e5473091d5b8750099e21eb6bec0d7fadfddb7a2bdc418e8a01bf7bf9f1b74d5",
+    "packaging_change": "Byte-identical copy"
+  },
+  "provenance/original_posthoc100_source_manifest.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/POSTHOC_SOURCE_MANIFEST.json",
+    "original_sha256": "515ccd2062539f4eb2d89a0aeaed18502f8bfe44a9782c8df1e7ddcff0f937e5",
+    "release_sha256": "515ccd2062539f4eb2d89a0aeaed18502f8bfe44a9782c8df1e7ddcff0f937e5",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/atomic.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/atomic.py",
+    "original_sha256": "9f9f8756f4b0b094ee90a7bcc9607d88796b0c4ede8e71def0533237e8321e3c",
+    "release_sha256": "9f9f8756f4b0b094ee90a7bcc9607d88796b0c4ede8e71def0533237e8321e3c",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/checkpoint.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/checkpoint.py",
+    "original_sha256": "f11d19d6163739e03ba9a40cfd90461a18834e40ffd3c12e39cea34a5e2a03ce",
+    "release_sha256": "f11d19d6163739e03ba9a40cfd90461a18834e40ffd3c12e39cea34a5e2a03ce",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/checkpoint_compatibility.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/checkpoint_compatibility.py",
+    "original_sha256": "9cf97cf5466ee603c36378fb999bcf31bea400fe7244060ed918d5410daf87bc",
+    "release_sha256": "9cf97cf5466ee603c36378fb999bcf31bea400fe7244060ed918d5410daf87bc",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/data.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/data.py",
+    "original_sha256": "f17906f342e69b252d7b1bf4e6fc8761dfff2e441b42d7ec49ff4ee2980d9a39",
+    "release_sha256": "f17906f342e69b252d7b1bf4e6fc8761dfff2e441b42d7ec49ff4ee2980d9a39",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/freeze100.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/freeze100.py",
+    "original_sha256": "3aafc30c17928d4e3434a13395d642e3eafe8b5a2f3caebfd5b2e4b61dda85c7",
+    "release_sha256": "3aafc30c17928d4e3434a13395d642e3eafe8b5a2f3caebfd5b2e4b61dda85c7",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/native.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/native.py",
+    "original_sha256": "c82ff7a8f4f00952539d7fa781c295aafb35cb921b87c9286165021bd8fe886b",
+    "release_sha256": "c82ff7a8f4f00952539d7fa781c295aafb35cb921b87c9286165021bd8fe886b",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/protocol.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/protocol.py",
+    "original_sha256": "3b77db6b439348c4063037fd8c80cc09994b758ca5a333f1df554169d7edeeed",
+    "release_sha256": "3b77db6b439348c4063037fd8c80cc09994b758ca5a333f1df554169d7edeeed",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/reliability.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/reliability.py",
+    "original_sha256": "a570bc6dd1945acf7c4b62f9fec8c6a0585061980b22304c028bf9a2213d01cd",
+    "release_sha256": "a570bc6dd1945acf7c4b62f9fec8c6a0585061980b22304c028bf9a2213d01cd",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/retention.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/retention.py",
+    "original_sha256": "bcac101946ba819c1baa70cf4df7e13367fb77d208a236ac95aecf1fd208012b",
+    "release_sha256": "bcac101946ba819c1baa70cf4df7e13367fb77d208a236ac95aecf1fd208012b",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/signals.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/signals.py",
+    "original_sha256": "b8bd3be306b18d3cd6d57417a2874d4a61c48746c0416ec54f6ff172aa7ba22b",
+    "release_sha256": "b8bd3be306b18d3cd6d57417a2874d4a61c48746c0416ec54f6ff172aa7ba22b",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/store.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/store.py",
+    "original_sha256": "8bd62ac0143f3d209436037b15266e2b3ba7f0782c94d32e891b548e5e29b536",
+    "release_sha256": "8bd62ac0143f3d209436037b15266e2b3ba7f0782c94d32e891b548e5e29b536",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/training.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/training.py",
+    "original_sha256": "fe41d4ff3b3771c8728c2b644b9a11a4e8143236a4362a9d430cf54256f2279d",
+    "release_sha256": "fe41d4ff3b3771c8728c2b644b9a11a4e8143236a4362a9d430cf54256f2279d",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/src/sstre100/__init__.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/src/sstre100/__init__.py",
+    "original_sha256": "75c351ced1b49cb134c0167f51b37bf67063b18a3d0b4614e0da1a09e133199c",
+    "release_sha256": "75c351ced1b49cb134c0167f51b37bf67063b18a3d0b4614e0da1a09e133199c",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/reviewed_protocol/datasets/cifar100n.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/datasets/cifar100n.json",
+    "original_sha256": "d3c969f6b3c6026c922e5b4225b55c967e1b693c4b88d14aaa209841a064ec54",
+    "release_sha256": "49cc0073804958f9f60c0551c843ae327a1bdce1dcd18c77d7c49b2a7a468264",
+    "packaging_change": "Removed unused historical storage location hints"
+  },
+  "experiments/main100/reviewed_protocol/protocol_tools.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/protocol_tools.py",
+    "original_sha256": "4259661449fe9ba40ea0e7b88fdc544107ffb9a57362ee34817849ad08b24df7",
+    "release_sha256": "4259661449fe9ba40ea0e7b88fdc544107ffb9a57362ee34817849ad08b24df7",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/CHECKPOINT_RETENTION_V1.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/CHECKPOINT_RETENTION_V1.json",
+    "original_sha256": "32761309e9ee27c74a8e6156cbbf57cffe33ffb303f825f6711d90743274ceac",
+    "release_sha256": "32761309e9ee27c74a8e6156cbbf57cffe33ffb303f825f6711d90743274ceac",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/CHECKPOINT_WRITER_V2.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/CHECKPOINT_WRITER_V2.json",
+    "original_sha256": "4eac232758dcbb5ba40f50ea204fbd89df02909badb2841cc0c340b5830a2a7d",
+    "release_sha256": "4eac232758dcbb5ba40f50ea204fbd89df02909badb2841cc0c340b5830a2a7d",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/main100/reviewed_protocol/protocol.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/protocol.json",
+    "original_sha256": "d633950e29d9a517e3e95583e7bc72b82bbaf7d84a60d29428b44f0252d3746b",
+    "release_sha256": "bba21919c41d1927b8edf749df5eed34908fbd10038a6ca8e17642cb38b34f2f",
+    "packaging_change": "Removed original account resource names from persistence metadata"
+  },
+  "experiments/main100/reviewed_protocol/datasets/cifar10n.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/datasets/cifar10n.json",
+    "original_sha256": "64c4d326dc6fe4c3a6d97056d8c63b8b884985fe7e6b9479685ba8c6f3c4a704",
+    "release_sha256": "1b52619e5ab76a290cdb8da8ded0a562075a9c09af8b170d5ed7e98819a8ef48",
+    "packaging_change": "Removed unused personal paths and storage hints; kept split and archive hashes"
+  },
+  "experiments/main100/reviewed_protocol/runs/cifar100n_adaptive_seed42.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/runs/cifar100n_adaptive_seed42.json",
+    "original_sha256": "1f7321fb7edcd3dc18f3de208216018b2fd6747eca646c1ab73b8c14e6fa4b24",
+    "release_sha256": "5521e9d3743dc73c170520b28bbdde3b8a86104265b2b9788d14bb5e229accf1",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/main100/reviewed_protocol/runs/cifar100n_ce_seed42.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/runs/cifar100n_ce_seed42.json",
+    "original_sha256": "46a9b2f06fb5b30aebcf5122a184a79b07fd9ea2384c58ee3264488f791ebe55",
+    "release_sha256": "bf6da0ff59c0aa61f48763ea72179884befd068244e2289f6e0f136567b850d7",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/main100/reviewed_protocol/runs/cifar100n_fixed_seed42.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/runs/cifar100n_fixed_seed42.json",
+    "original_sha256": "e3790edbd5a6960e3feb77b01c2c903fb6263463276f036e8207e0dfd2bd5c56",
+    "release_sha256": "1f8e6baece750550e41ac79b987683e6fced74073224fb919c1c51d9f004119e",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/main100/reviewed_protocol/runs/cifar10n_adaptive_seed42.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/runs/cifar10n_adaptive_seed42.json",
+    "original_sha256": "b5adb583b44cfca9a07d406007f92548f2f9071e449bd5b73e2acb82b3023159",
+    "release_sha256": "36b4d7dbf391d85fc1310709f9f6c58628140dc953611f4a77f1caccdecc1914",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/main100/reviewed_protocol/runs/cifar10n_c_only_seed42.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/runs/cifar10n_c_only_seed42.json",
+    "original_sha256": "82872893fdaa4565db60a3d020441f2e6b1bc0872b3894126337dda0de47986d",
+    "release_sha256": "ed8d78ba70ede74cc1e3204f982ea4b309516d4333798898e063a8de4368b44f",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/main100/reviewed_protocol/runs/cifar10n_ce_seed42.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/runs/cifar10n_ce_seed42.json",
+    "original_sha256": "fbaef73a934f1d68931bde38cdf76d9d9c04f4181a651b7b3cd8e6c553b95b08",
+    "release_sha256": "1580e041e32a2e2ec93b47ded334d408201c936baf30705fde27228b2ca26b97",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/main100/reviewed_protocol/runs/cifar10n_fixed_seed42.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/runs/cifar10n_fixed_seed42.json",
+    "original_sha256": "4a66ba6b6cdd5d7276e8747ad326a2ecb58d2a0d457ced575082cd3435d12a90",
+    "release_sha256": "248dfb59a4a14844ac88f1672e88b3d6843057ae5ab40a42b3564db1b2fed654",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/main100/reviewed_protocol/CONFIG_LOCK.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/reviewed_protocol/CONFIG_LOCK.json",
+    "original_sha256": "702fd6248420bb32664984c17b353239bca06627f4b30fb04f1c577b878f162b",
+    "release_sha256": "7a39f339fd4da485cb3bf4fd17e720f6ad877db588b3b2afc59f75bd8e20b35b",
+    "packaging_change": "Recomputed lock for the public configuration files"
+  },
+  "experiments/main100/main100_modal.py": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/main100_modal.py",
+    "original_sha256": "4c7e33ff27b67ae4aab55d6523f4f6cbe20b8f83633739bde7f16216b85ecb06",
+    "release_sha256": "4c3bb4d505292ffb0b43fee1e838151048c671cf45d35d232b0e042503d693a0",
+    "packaging_change": "Replaced hardcoded account resources with explicit environment settings; omitted private storage smoke launcher where applicable"
+  },
+  "experiments/main100/SOURCE_MANIFEST.json": {
+    "original_relative_path": "experiments/phase6_main100_v2_20261026_01_retention_v1_writer_v2/SOURCE_MANIFEST.json",
+    "original_sha256": "e5473091d5b8750099e21eb6bec0d7fadfddb7a2bdc418e8a01bf7bf9f1b74d5",
+    "release_sha256": "3c6190634710c27469af8d427ff2babbbb0e2e6ff8e06a0f43bea76a3c7736ab",
+    "packaging_change": "Recomputed source manifest for public bundle and excluded private operational utilities"
+  },
+  "experiments/posthoc100/CHECKPOINT_RETENTION_V1.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/CHECKPOINT_RETENTION_V1.json",
+    "original_sha256": "32761309e9ee27c74a8e6156cbbf57cffe33ffb303f825f6711d90743274ceac",
+    "release_sha256": "32761309e9ee27c74a8e6156cbbf57cffe33ffb303f825f6711d90743274ceac",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/CHECKPOINT_WRITER_V2.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/CHECKPOINT_WRITER_V2.json",
+    "original_sha256": "4eac232758dcbb5ba40f50ea204fbd89df02909badb2841cc0c340b5830a2a7d",
+    "release_sha256": "4eac232758dcbb5ba40f50ea204fbd89df02909badb2841cc0c340b5830a2a7d",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/COMPARISON_RULES.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/COMPARISON_RULES.json",
+    "original_sha256": "75ccd9b4447c52b50e88ebead995458b683bc73a31d7cbdc8de22b1da5d3bdb7",
+    "release_sha256": "75ccd9b4447c52b50e88ebead995458b683bc73a31d7cbdc8de22b1da5d3bdb7",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/reviewed_protocol/datasets/cifar100n.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/datasets/cifar100n.json",
+    "original_sha256": "d3c969f6b3c6026c922e5b4225b55c967e1b693c4b88d14aaa209841a064ec54",
+    "release_sha256": "49cc0073804958f9f60c0551c843ae327a1bdce1dcd18c77d7c49b2a7a468264",
+    "packaging_change": "Removed unused historical storage location hints"
+  },
+  "experiments/posthoc100/reviewed_protocol/protocol_tools.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/protocol_tools.py",
+    "original_sha256": "4259661449fe9ba40ea0e7b88fdc544107ffb9a57362ee34817849ad08b24df7",
+    "release_sha256": "4259661449fe9ba40ea0e7b88fdc544107ffb9a57362ee34817849ad08b24df7",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/__init__.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/__init__.py",
+    "original_sha256": "75c351ced1b49cb134c0167f51b37bf67063b18a3d0b4614e0da1a09e133199c",
+    "release_sha256": "75c351ced1b49cb134c0167f51b37bf67063b18a3d0b4614e0da1a09e133199c",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/atomic.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/atomic.py",
+    "original_sha256": "9f9f8756f4b0b094ee90a7bcc9607d88796b0c4ede8e71def0533237e8321e3c",
+    "release_sha256": "9f9f8756f4b0b094ee90a7bcc9607d88796b0c4ede8e71def0533237e8321e3c",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/checkpoint.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/checkpoint.py",
+    "original_sha256": "f11d19d6163739e03ba9a40cfd90461a18834e40ffd3c12e39cea34a5e2a03ce",
+    "release_sha256": "f11d19d6163739e03ba9a40cfd90461a18834e40ffd3c12e39cea34a5e2a03ce",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/checkpoint_compatibility.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/checkpoint_compatibility.py",
+    "original_sha256": "9cf97cf5466ee603c36378fb999bcf31bea400fe7244060ed918d5410daf87bc",
+    "release_sha256": "9cf97cf5466ee603c36378fb999bcf31bea400fe7244060ed918d5410daf87bc",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/data.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/data.py",
+    "original_sha256": "f17906f342e69b252d7b1bf4e6fc8761dfff2e441b42d7ec49ff4ee2980d9a39",
+    "release_sha256": "f17906f342e69b252d7b1bf4e6fc8761dfff2e441b42d7ec49ff4ee2980d9a39",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/extension.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/extension.py",
+    "original_sha256": "4f5bdf5228827e491f39309e4a2225afcc6bcc70f44e2a2b20844a38efcd3967",
+    "release_sha256": "4f5bdf5228827e491f39309e4a2225afcc6bcc70f44e2a2b20844a38efcd3967",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/freeze100.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/freeze100.py",
+    "original_sha256": "3aafc30c17928d4e3434a13395d642e3eafe8b5a2f3caebfd5b2e4b61dda85c7",
+    "release_sha256": "3aafc30c17928d4e3434a13395d642e3eafe8b5a2f3caebfd5b2e4b61dda85c7",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/native.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/native.py",
+    "original_sha256": "c82ff7a8f4f00952539d7fa781c295aafb35cb921b87c9286165021bd8fe886b",
+    "release_sha256": "c82ff7a8f4f00952539d7fa781c295aafb35cb921b87c9286165021bd8fe886b",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/protocol.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/protocol.py",
+    "original_sha256": "3b77db6b439348c4063037fd8c80cc09994b758ca5a333f1df554169d7edeeed",
+    "release_sha256": "3b77db6b439348c4063037fd8c80cc09994b758ca5a333f1df554169d7edeeed",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/recovery.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/recovery.py",
+    "original_sha256": "77990a14638567964568514fccf8c6d36d10a4126dcade2a106c34bf06a65980",
+    "release_sha256": "77990a14638567964568514fccf8c6d36d10a4126dcade2a106c34bf06a65980",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/reliability.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/reliability.py",
+    "original_sha256": "a570bc6dd1945acf7c4b62f9fec8c6a0585061980b22304c028bf9a2213d01cd",
+    "release_sha256": "a570bc6dd1945acf7c4b62f9fec8c6a0585061980b22304c028bf9a2213d01cd",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/retention.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/retention.py",
+    "original_sha256": "bcac101946ba819c1baa70cf4df7e13367fb77d208a236ac95aecf1fd208012b",
+    "release_sha256": "bcac101946ba819c1baa70cf4df7e13367fb77d208a236ac95aecf1fd208012b",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/signals.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/signals.py",
+    "original_sha256": "0ceab146d9868c4989caeafc73b67e456421422eb41c37af254a0535b9e1613c",
+    "release_sha256": "0ceab146d9868c4989caeafc73b67e456421422eb41c37af254a0535b9e1613c",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/store.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/store.py",
+    "original_sha256": "39aee9b71865c846fc69dc45e4902b1387cae5bf595c4b6dcb3b63303b7a23ca",
+    "release_sha256": "39aee9b71865c846fc69dc45e4902b1387cae5bf595c4b6dcb3b63303b7a23ca",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/src/sstre100/training.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/src/sstre100/training.py",
+    "original_sha256": "cacd07a0c0a2d76abef1c916780b1941bf00e080df86d71d75770f8a846ed985",
+    "release_sha256": "cacd07a0c0a2d76abef1c916780b1941bf00e080df86d71d75770f8a846ed985",
+    "packaging_change": "Byte-identical copy"
+  },
+  "experiments/posthoc100/reviewed_protocol/protocol.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/protocol.json",
+    "original_sha256": "d633950e29d9a517e3e95583e7bc72b82bbaf7d84a60d29428b44f0252d3746b",
+    "release_sha256": "bba21919c41d1927b8edf749df5eed34908fbd10038a6ca8e17642cb38b34f2f",
+    "packaging_change": "Removed original account resource names from persistence metadata"
+  },
+  "experiments/posthoc100/reviewed_protocol/datasets/cifar10n.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/datasets/cifar10n.json",
+    "original_sha256": "64c4d326dc6fe4c3a6d97056d8c63b8b884985fe7e6b9479685ba8c6f3c4a704",
+    "release_sha256": "1b52619e5ab76a290cdb8da8ded0a562075a9c09af8b170d5ed7e98819a8ef48",
+    "packaging_change": "Removed unused personal paths and storage hints; kept split and archive hashes"
+  },
+  "experiments/posthoc100/reviewed_protocol/runs/cifar100n_adaptive_seed42.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/runs/cifar100n_adaptive_seed42.json",
+    "original_sha256": "1f7321fb7edcd3dc18f3de208216018b2fd6747eca646c1ab73b8c14e6fa4b24",
+    "release_sha256": "5521e9d3743dc73c170520b28bbdde3b8a86104265b2b9788d14bb5e229accf1",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/posthoc100/reviewed_protocol/runs/cifar100n_ce_seed42.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/runs/cifar100n_ce_seed42.json",
+    "original_sha256": "46a9b2f06fb5b30aebcf5122a184a79b07fd9ea2384c58ee3264488f791ebe55",
+    "release_sha256": "bf6da0ff59c0aa61f48763ea72179884befd068244e2289f6e0f136567b850d7",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/posthoc100/reviewed_protocol/runs/cifar100n_fixed_seed42.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/runs/cifar100n_fixed_seed42.json",
+    "original_sha256": "e3790edbd5a6960e3feb77b01c2c903fb6263463276f036e8207e0dfd2bd5c56",
+    "release_sha256": "1f8e6baece750550e41ac79b987683e6fced74073224fb919c1c51d9f004119e",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/posthoc100/reviewed_protocol/runs/cifar10n_adaptive_seed42.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/runs/cifar10n_adaptive_seed42.json",
+    "original_sha256": "b5adb583b44cfca9a07d406007f92548f2f9071e449bd5b73e2acb82b3023159",
+    "release_sha256": "36b4d7dbf391d85fc1310709f9f6c58628140dc953611f4a77f1caccdecc1914",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/posthoc100/reviewed_protocol/runs/cifar10n_c_only_seed42.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/runs/cifar10n_c_only_seed42.json",
+    "original_sha256": "82872893fdaa4565db60a3d020441f2e6b1bc0872b3894126337dda0de47986d",
+    "release_sha256": "ed8d78ba70ede74cc1e3204f982ea4b309516d4333798898e063a8de4368b44f",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/posthoc100/reviewed_protocol/runs/cifar10n_ce_seed42.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/runs/cifar10n_ce_seed42.json",
+    "original_sha256": "fbaef73a934f1d68931bde38cdf76d9d9c04f4181a651b7b3cd8e6c553b95b08",
+    "release_sha256": "1580e041e32a2e2ec93b47ded334d408201c936baf30705fde27228b2ca26b97",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/posthoc100/reviewed_protocol/runs/cifar10n_fixed_seed42.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/runs/cifar10n_fixed_seed42.json",
+    "original_sha256": "4a66ba6b6cdd5d7276e8747ad326a2ecb58d2a0d457ced575082cd3435d12a90",
+    "release_sha256": "248dfb59a4a14844ac88f1672e88b3d6843057ae5ab40a42b3564db1b2fed654",
+    "packaging_change": "Updated release configuration hashes and replaced account-specific output Volume metadata"
+  },
+  "experiments/posthoc100/reviewed_protocol/CONFIG_LOCK.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/reviewed_protocol/CONFIG_LOCK.json",
+    "original_sha256": "702fd6248420bb32664984c17b353239bca06627f4b30fb04f1c577b878f162b",
+    "release_sha256": "7a39f339fd4da485cb3bf4fd17e720f6ad877db588b3b2afc59f75bd8e20b35b",
+    "packaging_change": "Recomputed lock for the public configuration files"
+  },
+  "experiments/posthoc100/POSTHOC_REGISTER.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/POSTHOC_REGISTER.json",
+    "original_sha256": "ac67f1a4069aba12230a06e58cfd83e0758006cfd624393288ae315d31e947f5",
+    "release_sha256": "f7a2aecbef018b83ac78ff41511b2d4864397e9b686bc8f31b9fd26c4de99f05",
+    "packaging_change": "Updated public base protocol digest; retained the thirteen conditions"
+  },
+  "experiments/posthoc100/posthoc100_modal.py": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/posthoc100_modal.py",
+    "original_sha256": "59eb5a059f51a6e82cf485ccbe6c4badb8b9a91dd326bdcd88d8c08123df74b5",
+    "release_sha256": "5a083de08144310784b6e5a3b2ad42f29a79b75d524425154f77dc10da8de966",
+    "packaging_change": "Replaced hardcoded account resources with explicit environment settings; omitted private storage smoke launcher where applicable"
+  },
+  "experiments/posthoc100/POSTHOC_SOURCE_MANIFEST.json": {
+    "original_relative_path": "experiments/phase6_posthoc100_v1_20261028_01/POSTHOC_SOURCE_MANIFEST.json",
+    "original_sha256": "515ccd2062539f4eb2d89a0aeaed18502f8bfe44a9782c8df1e7ddcff0f937e5",
+    "release_sha256": "54c63050314e583ac12057b9a9c4cdd4a4ab1bf63ec994c2f5089ee2fced5d4a",
+    "packaging_change": "Recomputed source manifest for public bundle and excluded private operational utilities"
+  },
+  "dataset_preparation/freeze_and_validate.py": {
+    "original_relative_path": "dataset_freezes/cifar100n_v1_20261026/freeze_and_validate.py",
+    "original_sha256": "02e16b3e37089ae8b4f580e59b32f10f4c1a225e132877caaa2af06630b261a3",
+    "release_sha256": "4fd794a49c063fb1fd6573f4c9d2dde44ec4ee6570df812b44992976153aea7c",
+    "packaging_change": "Parameterized source, freeze and report paths; reads the sanitized verified acquisition digests"
+  },
+  "dataset_preparation/cifar100n_source_hashes.json": {
+    "original_relative_path": "dataset_freezes/cifar100n_v1_20261026/FREEZE_VALIDATION_REPORT.json",
+    "original_sha256": "3d720c3688ca192711c12d37f4670c8634d33e4ed7a2bd9f6913a93079cf7ca7",
+    "release_sha256": "c79e19b63b815ab2de773c7c03852bc866697ccb8c8f89eb405bd6a70d6c5bdd",
+    "packaging_change": "Allowlisted source digests and split identity; no acquisition logs or personal paths"
+  },
+  "evaluation/reliability/analyze_missing_local.py": {
+    "original_relative_path": "audits/root_cause_evidence_20261029_01/analyze_missing_local.py",
+    "original_sha256": "7c231b9c469112a941c77e0175edce96b80785d127892e664407dbbea4bf40fb",
+    "release_sha256": "c031e71609e3c401d825aa51198f1ea217ec852e0706121578bf1bf0e850e41e",
+    "packaging_change": "Parameterized input and output paths; retained original ranking, counterfactual, checks and outputs"
+  },
+  "evaluation/reliability/EXPLORATORY_POLICY_PREDECLARATION.json": {
+    "original_relative_path": "audits/root_cause_evidence_20261029_01/EXPLORATORY_POLICY_PREDECLARATION.json",
+    "original_sha256": "8a15b8d538820fc1dff1a4bdd3f9543461d2e752763902a99c7b0dfdcb7b5490",
+    "release_sha256": "8a15b8d538820fc1dff1a4bdd3f9543461d2e752763902a99c7b0dfdcb7b5490",
+    "packaging_change": "Byte-identical copy"
+  },
+  "evaluation/official_test/sstre_test/__init__.py": {
+    "original_relative_path": "final_evaluation/main100_official_test_evaluator_20261027_v3_cloudpath/sstre_test/__init__.py",
+    "original_sha256": "3dd29555c519d2b3fa26ff9a65c76aac530a26af1c154771ced1fd35c030172f",
+    "release_sha256": "3dd29555c519d2b3fa26ff9a65c76aac530a26af1c154771ced1fd35c030172f",
+    "packaging_change": "Byte-identical copy"
+  },
+  "evaluation/official_test/sstre_test/core.py": {
+    "original_relative_path": "final_evaluation/main100_official_test_evaluator_20261027_v3_cloudpath/sstre_test/core.py",
+    "original_sha256": "b46f759448c3be0a59c5790bcac3c465b6f1a3ae958cba9141ab1bd832317e8a",
+    "release_sha256": "b46f759448c3be0a59c5790bcac3c465b6f1a3ae958cba9141ab1bd832317e8a",
+    "packaging_change": "Byte-identical copy"
+  },
+  "evaluation/official_test/sstre_test/data.py": {
+    "original_relative_path": "final_evaluation/main100_official_test_evaluator_20261027_v3_cloudpath/sstre_test/data.py",
+    "original_sha256": "0f47abf10f1c3439d83e7d0ad9cab7a6464ed86d00e3cc6cf225109d55368a8a",
+    "release_sha256": "0f47abf10f1c3439d83e7d0ad9cab7a6464ed86d00e3cc6cf225109d55368a8a",
+    "packaging_change": "Byte-identical copy"
+  },
+  "evaluation/official_test/sstre_test/publication.py": {
+    "original_relative_path": "final_evaluation/main100_official_test_evaluator_20261027_v3_cloudpath/sstre_test/publication.py",
+    "original_sha256": "3654d9b5ba7bab7a5c0b3c0cfc8be2582cc978245fd9d6bdb6547dd32d6d9bf8",
+    "release_sha256": "3654d9b5ba7bab7a5c0b3c0cfc8be2582cc978245fd9d6bdb6547dd32d6d9bf8",
+    "packaging_change": "Byte-identical copy"
+  },
+  "evaluation/official_test/sstre_test/runner.py": {
+    "original_relative_path": "final_evaluation/main100_official_test_evaluator_20261027_v3_cloudpath/sstre_test/runner.py",
+    "original_sha256": "c0737ac5de305a56fe247daff768e47f930de3b7d3c15a54aa28d17ba6add40d",
+    "release_sha256": "c0737ac5de305a56fe247daff768e47f930de3b7d3c15a54aa28d17ba6add40d",
+    "packaging_change": "Byte-identical copy"
+  },
+  "results/ORIGINAL_SEVEN_OFFICIAL_TEST_RESULTS.csv": {
+    "original_relative_path": "scientific_consolidation/SSTRE_Final_Evidence_20261101_v1/ORIGINAL_SEVEN_OFFICIAL_TEST_RESULTS.csv",
+    "original_sha256": "8d243ad78ed8058e7193d959f5facb680d3d30f8df86e35a23b431175b16062e",
+    "release_sha256": "8d243ad78ed8058e7193d959f5facb680d3d30f8df86e35a23b431175b16062e",
+    "packaging_change": "Byte-identical copy"
+  },
+  "results/THREE_SEED_VALIDATION_RAW.csv": {
+    "original_relative_path": "scientific_consolidation/SSTRE_Final_Evidence_20261101_v1/THREE_SEED_VALIDATION_RAW.csv",
+    "original_sha256": "e58cf9007ec2572dddc08a19e5da7854e7e61b4929922823009262f45361fa9e",
+    "release_sha256": "d0b0711b13b94f0870349fafd64f19cce18167e64b1bc9081aec0d25b8e3bfb8",
+    "packaging_change": "Removed local source-path column only; numeric and other cells unchanged"
+  },
+  "results/THREE_SEED_VALIDATION_STATISTICS.csv": {
+    "original_relative_path": "scientific_consolidation/SSTRE_Final_Evidence_20261101_v1/THREE_SEED_VALIDATION_STATISTICS.csv",
+    "original_sha256": "0f1ab65701a59ecb7dfdc28af7277de44ab22e7bda3970b139560d43f7ccc721",
+    "release_sha256": "0f1ab65701a59ecb7dfdc28af7277de44ab22e7bda3970b139560d43f7ccc721",
+    "packaging_change": "Byte-identical copy"
+  },
+  "results/THREE_SEED_FROZEN_RELIABILITY_RAW.csv": {
+    "original_relative_path": "scientific_consolidation/SSTRE_Final_Evidence_20261101_v1/THREE_SEED_FROZEN_RELIABILITY_RAW.csv",
+    "original_sha256": "d746f82bb7668f32163c71535a13f24d23a929de657ef4f839527f5ab5ec91f3",
+    "release_sha256": "54fa4b412ade4456e26195036271faccb2847a7e58ff6f3133b17f529a86865a",
+    "packaging_change": "Removed local source-path column only; numeric and other cells unchanged"
+  },
+  "results/THREE_SEED_RELIABILITY_STATISTICS.csv": {
+    "original_relative_path": "scientific_consolidation/SSTRE_Final_Evidence_20261101_v1/THREE_SEED_RELIABILITY_STATISTICS.csv",
+    "original_sha256": "4369791e9cb302fb4616057779a5a426d574e3d64e08ee05261adf393b160ded",
+    "release_sha256": "4369791e9cb302fb4616057779a5a426d574e3d64e08ee05261adf393b160ded",
+    "packaging_change": "Byte-identical copy"
+  },
+  "results/CIFAR10N_NINE_METHOD_VALIDATION_AND_LOSS100.csv": {
+    "original_relative_path": "scientific_consolidation/SSTRE_Final_Evidence_20261101_v1/CIFAR10N_NINE_METHOD_VALIDATION_AND_LOSS100.csv",
+    "original_sha256": "97ccfb10f91460a912b9048487aceb75b881d2a05ed22d829ba70686f4ece1d7",
+    "release_sha256": "97ccfb10f91460a912b9048487aceb75b881d2a05ed22d829ba70686f4ece1d7",
+    "packaging_change": "Byte-identical copy"
+  }
+}

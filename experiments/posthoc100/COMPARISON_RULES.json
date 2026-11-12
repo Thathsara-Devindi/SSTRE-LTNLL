@@ -1,0 +1,14 @@
+{
+  "status": "PREDECLARED_POST_HOC_EXTENSION_NOT_EXECUTION_APPROVED",
+  "primary_classification": "Within each dataset, Stage-Aware minus Fixed validation-selected macro-F1, paired at seeds 43 and 44; include unchanged seed42 as historical context. Show all raw values/differences and descriptive mean, sample SD, range and signs for n=3; no strong significance claim.",
+  "selection": "First strict maximum clean-validation macro-F1 over all 100 epochs. No official-test access, inference, selection or tuning.",
+  "secondary_classification": ["accuracy", "balanced_accuracy", "macro_precision", "macro_recall", "head_accuracy", "mid_accuracy", "tail_accuracy", "final_epoch_100", "epochs_86_to_100_curves"],
+  "ablations": "All five declared seed42 subsets vs the unchanged existing full-budget CE, C-only, Fixed and Stage-Aware; do not rerun or replace original controls. Missing/failed runs must remain explicit.",
+  "reliability_endpoint": "Loss epoch100 scores actually used for training: C99 if active, T94..98 if active, N95 if active; use only this run's trajectory. Do not fabricate omitted channels or borrow another run's scores.",
+  "coverage": 0.7,
+  "selection_count": "floor(0.7*N), descending reliability with ascending frozen local ID to break ties",
+  "audit_masks": "Reuse the already frozen CIFAR10N hard-clean-tail mask of 392 samples and CIFAR100N mask of 315 samples, with exact mask/input hashes from existing audit receipts. Never remine per seed or method. Stop the analysis if mask identity cannot be verified.",
+  "reliability_metrics": ["clean-positive AUROC", "clean-positive AP and prevalence", "offline selection precision and recall", "audit-clean tail false rejection", "frozen hard-clean-tail false rejection", "head/mid/tail breakdowns"],
+  "exposure": "Sum actual saved normalized sample weights over logical epochs1..100; mean=sum/100. Windows1..30,31..50,51..75,76..100. De-duplicate replay epochs using lineage. This is weight exposure, not measured gradient influence.",
+  "restrictions": ["Audit clean/noisy labels and true-class masks are OFFLINE ONLY after score computation; never training or tuning", "Actual training rejection is zero", "Reliability endpoint and validation-selected checkpoint may occur at different epochs", "Known official-test results make these transparent post-hoc extensions, not new untouched confirmation", "Preserve the original negative hard-clean-tail result and all original conclusions", "New official test evaluation is disabled and requires a separate future decision", "TABASCO/DaSC reproduction requires its own separate feasibility audit; no baseline added here"]
+}

@@ -1,0 +1,13 @@
+{
+  "images": {
+    "sha256": "85cd44d02ba6437773c5bbd22e183051d648de2e7d6b014e1ef29b855ba677a7",
+    "name": "cifar-100-python.tar.gz"
+  },
+  "annotations": {
+    "sha256": "bd2d80409754d420292d622e15e25248ba21e37d27429efac49c8da723f44394",
+    "name": "CIFAR-100_human.pt",
+    "key": "noisy_label"
+  },
+  "frozen_split_fingerprint": "0a9f072cee264e5bfbe715eda22252afaebc009f6104fb8f4e7847ad8e597fc2",
+  "numpy_version": "1.26.4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "checkpoint_writer_v2_20261026",
+  "scope": "Checkpoint I/O only; scientific protocol and retention schedule unchanged",
+  "supersedes": "Unsupported renameat2 RENAME_NOREPLACE in retention_v1 atomic.py",
+  "write": "exclusive final-path xb creation, torch.save, flush, fsync",
+  "validity": "existing Volume commit plus independent size/SHA256 readback and verified marker; never use an unverified filename as a checkpoint",
+  "physical_rename_atomicity": false,
+  "overwrite": false,
+  "automatic_retry": false,
+  "cleanup": false,
+  "interrupted_write": "retain unverified file; abort without republication",
+  "historical_retention_metadata_override": "CHECKPOINT_RETENTION_V1.json atomic_save description is superseded by this writer amendment; its retention epochs and scientific settings are byte-identical"
+}
